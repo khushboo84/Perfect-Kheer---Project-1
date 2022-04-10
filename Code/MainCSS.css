@@ -1,0 +1,137 @@
+body{
+
+	font-family: Quattrocento Sans, sans-serif;
+	padding: 5% ;
+	
+}
+
+
+nav
+{	
+
+	background-color: #e38a7a;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+
+}
+nav a
+{
+	
+	font-weight: bold;
+	font-size: 20px;
+	display: inline;
+	text-decoration: none;
+
+
+
+}
+	nav a:link {color: ##000057;}
+	nav a:visited {color: ##000057;}
+	nav a:hover{color: #000000;}
+
+header
+{
+
+	color: #333367;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+h3
+{
+	color: #333367;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+p
+{
+	padding: 1em;
+	text-align: left;
+	font-size: 20px;
+	color: #333367;
+
+}
+p img {
+
+	padding: 10px;
+	float: right;
+
+}
+ul 
+{
+	list-style-type: none;
+}
+hr
+{
+	border-width: 2px;
+	background-color: red  ;
+}
+
+
+div
+{
+	padding: 0.5em;
+	font-size: 20px;
+	color: #333367;
+
+}
+
+
+footer 
+{
+	padding: 0.25px;
+	background-color: #e38a7a ;
+	color: ##000057;
+	font-weight: bold;
+	text-align: center;
+}	
+
+th,td
+{
+
+	padding-left: 1em;
+	padding-right: 2em;
+	padding-bottom: 0.5em;
+
+}
+
+
+
+
+/*mobile*/
+@media only screen and (min-width: 600px)
+{
+	
+	.grid{
+		display: grid;
+		grid-template-columns: 45% 45%;
+		grid-gap: 5em ;
+		
+	}
+
+}
+
+/*desktop*/
+@media only screen and (min-width: 1100px){
+.grid
+{
+	
+	display: grid;	
+	grid-template-columns: 30% 30% 30% ;
+	grid-gap: 4em;
+	
+}
+}
+
+
+
+
+
